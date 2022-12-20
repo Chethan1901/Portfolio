@@ -20,12 +20,9 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
 	const [showNavRight, setShowNavRight] = useState(false);
 	return (
-		<div className="Navbar-main">
 			<MDBNavbar sticky expand="lg" light bgColor="light">
 				<MDBContainer>
-					<MDBNavbarBrand href="#">
-						<img src={logo} height="30" alt="" loading="lazy" />
-					</MDBNavbarBrand>
+				<MDBNavbarBrand href='#' style={{fontWeight:"500"}}>Portfoliosite</MDBNavbarBrand>
 					<MDBNavbarToggler
 						type="button"
 						data-target="#navbarRightAlignExample"
@@ -39,25 +36,24 @@ const Navbar = () => {
 
 					<MDBCollapse navbar show={showNavRight}>
 						<MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0">
-							<MDBNavbarItem > 
+							<MDBNavbarItem className="ms-2"> 
 								<MDBNavbarLink active aria-current="page" href="#">
 									Home
 								</MDBNavbarLink>
 							</MDBNavbarItem>
-							<MDBNavbarItem>
+							<MDBNavbarItem  className="ms-2">
 								<MDBNavbarLink href="#">About</MDBNavbarLink>
 							</MDBNavbarItem>
-							<MDBNavbarItem>
+							<MDBNavbarItem  className="ms-2">
 								<MDBNavbarLink href="#">Projects</MDBNavbarLink>
 							</MDBNavbarItem>
-							<MDBNavbarItem>
+							<MDBNavbarItem  className="ms-2">
 								<MDBNavbarLink href="#">Contact</MDBNavbarLink>
 							</MDBNavbarItem>
 						</MDBNavbarNav>
 					</MDBCollapse>
 				</MDBContainer>
 			</MDBNavbar>
-		</div>
 	);
 };
 

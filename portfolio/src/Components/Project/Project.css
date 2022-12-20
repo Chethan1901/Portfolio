@@ -1,0 +1,146 @@
+.Project-main {
+	height: 93vh;
+	background-color: rgb(233, 233, 233);
+}
+
+.project-heading {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.project-txt {
+	text-align: center;
+}
+
+.project-btn-grp {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+	margin-left: 30%;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+ @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;700&display=swap");
+
+
+.event-main{
+	padding-bottom: 50px;
+}
+
+.event-head {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slick-prev:before {
+	opacity: none !important;
+	line-height: 0px !important;
+	padding: 10px;
+	background-color: #007bff;
+	margin-left: -20px;
+	border-radius: 5px;
+}
+
+.slick-next:before {
+	opacity: none !important;
+	line-height: 0px !important;
+	padding: 10px;
+	background-color: #007bff;
+	/* margin: -5px; */
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.event-heading {
+	text-align: center;
+	font-family: "Jost", sans-serif;
+	font-size: medium 500;
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+
+.eventCard {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.flee {
+	display: flex !important;
+	flex-direction: row;
+	align-items: flex-start;
+	overflow: hidden;
+	height: 500px;
+	color: rgb(48, 45, 45);
+	cursor: pointer;
+	border: 3px solid   #007bff ;
+	margin-bottom: 50px;
+}
+
+
+.slick-slide > div {
+	margin: 0 10px;
+}
+
+
+.event-img {
+	object-fit: cover;
+	width: 650px;
+	height: 500px;
+}
+
+.event-txt {
+	margin: 10px 20px 10px 20px;
+	font-family: "Jost", sans-serif;
+}
+
+.event-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+	color: #007bff;
+  margin-bottom: 0.5rem;
+}
+.event-date {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: lightslategray;
+  margin-bottom: 0.5rem;
+}
+
+.event-content {
+  font-family: "Jost", sans-serif;
+	font-size: 20px;
+  font-weight: 400;
+	overflow: hidden;
+}
+
+
+@media only screen and (max-width: 820px) {
+	.flee {
+		display: flex !important;
+		flex-direction: column !important;
+		height: auto;
+	}
+	.event-img {
+		object-fit: cover;
+		width: 100%;
+		height: auto;
+	}
+	.eventCard {
+		cursor: pointer;
+		/* border: 1px dashed; */
+	}
+	.event-content {
+		font-size: 15px;
+	}
+	
+}
