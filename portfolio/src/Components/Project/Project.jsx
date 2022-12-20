@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import mav from "../../assets/p.png"
+import FC from "../../assets/p2.png"
+import TH from "../../assets/p4.png"
+import Base64 from "../../assets/p3.png"
+
+
 import {
 	MDBContainer,
 	MDBBtn,
@@ -75,7 +81,7 @@ const Project = () => {
 						<MDBCol>
 							<MDBCard style={{ height: "60vh" }}>
 								<MDBCardImage
-									src="https:mdbootstrap.com/img/new/standard/city/041.webp"
+									src={mav}
 									alt="..."
 									position="top"
 								/>
@@ -91,12 +97,14 @@ const Project = () => {
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn"
+										href="http://mahilaarogyavikas.org/"
 									>
 										Live
 									</MDBBtn>
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn ms-2"
+										href="https://github.com/Chethan1901/MAV_DEPLOY"
 									>
 										Code
 									</MDBBtn>
@@ -167,7 +175,7 @@ const Project = () => {
 						<MDBCol>
 							<MDBCard style={{ height: "60vh" }}>
 								<MDBCardImage
-									src="https:mdbootstrap.com/img/new/standard/city/044.webp"
+									src={TH}
 									alt="..."
 									position="top"
 								/>
@@ -182,12 +190,14 @@ const Project = () => {
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn"
+										href="https://projects-qtl3.vercel.app/"
 									>
 										Live
 									</MDBBtn>
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn ms-2"
+										href="https://github.com/Chethan1901/Projects/tree/main/GAME"
 									>
 										Code
 									</MDBBtn>
@@ -197,7 +207,7 @@ const Project = () => {
 						<MDBCol>
 							<MDBCard style={{ height: "60vh" }}>
 								<MDBCardImage
-									src="https:mdbootstrap.com/img/new/standard/city/044.webp"
+									src={Base64}
 									alt="..."
 									position="top"
 								/>
@@ -213,13 +223,16 @@ const Project = () => {
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn"
+										href="https://projects-eight-brown.vercel.app/"
 									>
 										Live
 									</MDBBtn>
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn ms-2"
+										href="https://github.com/Chethan1901/Projects/tree/main/BASE64"
 									>
+
 										Code
 									</MDBBtn>
 								</MDBCardFooter>
@@ -228,7 +241,7 @@ const Project = () => {
 						<MDBCol>
 							<MDBCard style={{ height: "60vh" }}>
 								<MDBCardImage
-									src="https:mdbootstrap.com/img/new/standard/city/044.webp"
+									src={FC}
 									alt="..."
 									position="top"
 								/>
@@ -241,6 +254,7 @@ const Project = () => {
 								</MDBCardBody>
 								<MDBCardFooter>
 									<MDBBtn
+										href="https://projects-scdx.vercel.app/"
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn"
 									>
@@ -249,6 +263,7 @@ const Project = () => {
 									<MDBBtn
 										style={{ backgroundColor: "#007bff" }}
 										className="project-card-btn ms-2"
+										href="https://github.com/Chethan1901/Projects/tree/main/FC"
 									>
 										Code
 									</MDBBtn>
