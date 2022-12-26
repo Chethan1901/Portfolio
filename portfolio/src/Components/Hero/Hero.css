@@ -26,6 +26,10 @@
     border-radius: 25px;
 }
 
+.icones:hover{
+    cursor: pointer;
+}
+
 
 .banner-image{
     background-image:url(../../assets/hero.png);

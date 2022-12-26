@@ -4,7 +4,6 @@ import { TbPhoneCall } from "react-icons/tb";
 import { SiGmail } from "react-icons/si";
 import { ImWhatsapp } from "react-icons/im";
 
-
 const Contact = () => {
 	return (
 		<div className="contact-main">
@@ -13,9 +12,15 @@ const Contact = () => {
 				Shoot me a message via any of the links below!
 			</p>
 			<div className="contact-icon">
-				<ImWhatsapp className="icony"/>
-				<SiGmail className="icony"/>
-				<TbPhoneCall className="icony"/>
+				<a href="whatsapp://send?text=Hello Chethan!&phone=+917995489094">
+					<ImWhatsapp className="icony" />
+				</a>
+				<a href="mailto:chethanreddy.akkati123@gmail.com">
+					<SiGmail className="icony" />
+				</a>
+				<a href="tel:+91 9392120418">
+					<TbPhoneCall className="icony" />
+				</a>
 			</div>
 		</div>
 	);

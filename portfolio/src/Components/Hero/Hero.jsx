@@ -29,11 +29,20 @@ const Hero = () => {
         <a href="#"><i class="lni lni-twitter-filled"></i></a>
         <a href="#"><i class="lni lni-instagram-filled"></i></a>
         <a href="#"><i class="lni lni-github-original"></i></a> */}
-									<FaLinkedin className="icones" />
-                                    <BsGithub className="icones" />
-									<FiInstagram className="icones" />
-									<SiWakatime className="icones" />
-                                    <BsTwitter className="icones" />
+									<a href="https://www.linkedin.com/in/chethanreddyakkati/">
+										<FaLinkedin className="icones" />
+									</a>
+									<a href="https://github.com/Chethan1901">
+										<BsGithub className="icones" href="" />
+									</a>
+									<a href="https://www.instagram.com/akkatichethanreddy/">
+										<FiInstagram className="icones" href="" />
+									</a>
+									<a href="https://wakatime.com/@Chethan1901">
+										<SiWakatime className="icones" href="" />
+									</a>
+
+									{/* <BsTwitter className="icones" /> */}
 								</div>
 							</div>
 						</div>

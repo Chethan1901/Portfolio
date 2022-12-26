@@ -16,44 +16,50 @@ import {
 	MDBNavbarBrand,
 } from "mdb-react-ui-kit";
 import logo from "../../assets/logo.png";
+import Scroll from 'react-scroll'
+import { Link } from "react-router-dom";
+const ScrollLink = Scroll.ScrollLink
+
 
 const Navbar = () => {
 	const [showNavRight, setShowNavRight] = useState(false);
 	return (
-			<MDBNavbar sticky expand="lg" light bgColor="light">
-				<MDBContainer>
-				<MDBNavbarBrand href='#' style={{fontWeight:"500"}}>Portfoliosite</MDBNavbarBrand>
-					<MDBNavbarToggler
-						type="button"
-						data-target="#navbarRightAlignExample"
-						aria-controls="navbarRightAlignExample"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-						onClick={() => setShowNavRight(!showNavRight)}
-					>
-						<MDBIcon icon="bars" fas />
-					</MDBNavbarToggler>
+		<MDBNavbar sticky expand="lg" light bgColor="light">
+			<MDBContainer>
+				<MDBNavbarBrand href="#" style={{ fontWeight: "500" }}>
+					Portfoliosite
+				</MDBNavbarBrand>
+				<MDBNavbarToggler
+					type="button"
+					data-target="#navbarRightAlignExample"
+					aria-controls="navbarRightAlignExample"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					onClick={() => setShowNavRight(!showNavRight)}
+				>
+					<MDBIcon icon="bars" fas />
+				</MDBNavbarToggler>
 
-					<MDBCollapse navbar show={showNavRight}>
-						<MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0">
-							<MDBNavbarItem className="ms-2"> 
-								<MDBNavbarLink active aria-current="page" href="#">
-									Home
-								</MDBNavbarLink>
-							</MDBNavbarItem>
-							<MDBNavbarItem  className="ms-2">
-								<MDBNavbarLink href="#">About</MDBNavbarLink>
-							</MDBNavbarItem>
-							<MDBNavbarItem  className="ms-2">
-								<MDBNavbarLink href="#">Projects</MDBNavbarLink>
-							</MDBNavbarItem>
-							<MDBNavbarItem  className="ms-2">
-								<MDBNavbarLink href="#">Contact</MDBNavbarLink>
-							</MDBNavbarItem>
-						</MDBNavbarNav>
-					</MDBCollapse>
-				</MDBContainer>
-			</MDBNavbar>
+				<MDBCollapse navbar show={showNavRight}>
+					<MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0">
+						<MDBNavbarItem className="ms-2">
+							<MDBNavbarLink active aria-current="page" href="#">
+								Home
+							</MDBNavbarLink>
+						</MDBNavbarItem>
+						<MDBNavbarItem className="ms-2">
+							<MDBNavbarLink to="#">About</MDBNavbarLink>
+						</MDBNavbarItem>
+						<MDBNavbarItem className="ms-2">
+							<MDBNavbarLink href="#">Projects</MDBNavbarLink>
+						</MDBNavbarItem>
+						<MDBNavbarItem className="ms-2">
+							<MDBNavbarLink href="#">Contact</MDBNavbarLink>
+						</MDBNavbarItem>
+					</MDBNavbarNav>
+				</MDBCollapse>
+			</MDBContainer>
+		</MDBNavbar>
 	);
 };
 
