@@ -16,9 +16,6 @@ import {
 	MDBNavbarBrand,
 } from "mdb-react-ui-kit";
 import logo from "../../assets/logo.png";
-import Scroll from 'react-scroll'
-import { Link } from "react-router-dom";
-const ScrollLink = Scroll.ScrollLink
 
 
 const Navbar = () => {
