@@ -1,11 +1,16 @@
 .About-main {
-	height: 93vh;
+	height: 92vh;
 	/* background-color: rgb(224, 224, 224); */
+}
+
+.about-heading{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .About-left {
 	height: 75vh;
-	margin-top: 80px;
 	/* background-color: wheat; */
 	padding: 15px 15px !important;
 }
@@ -18,7 +23,6 @@
 
 .About-right {
 	height: 80vh;
-	margin-top: 80px;
 	/* background-color:aquamarine; */
 }
 
@@ -35,18 +39,21 @@
 	align-items: center;
 	height: 180px;
 	width: 200px;
-	/* border: 2px solid black; */
+	border: 0.5px solid rgb(233, 233, 233);
 	border-radius: 10px;
     border-radius: 12px;
-    /* background: #e0e0e0; */
     box-shadow:  9px 9px 18px #c5c5c5,
                  -9px -9px 18px #fbfbfb;
 }
 
-.download {
+.about-btn{
+	width: auto;
 	margin-top: 50px;
+	height: 50px;
+	font-size: 0.9rem;
 	background-color: #007bff;
 }
+
 
 .right-box-txt {
 	font-weight: 300;
@@ -58,6 +65,18 @@
 	margin: 15px;
 }
 
+.skill-icon{
+	font-size: 30px;
+}
+
+.skill-icon-name{
+	font-size:1.2rem;
+}
+
+.skill-bar{
+	height: 5px;
+}
+
 .txt {
 	font-size: 15px;
 	font-weight: 200;
@@ -67,4 +86,53 @@
 .txt-1 {
 	font-weight: 500;
 	margin-bottom: 15px !important;
+}
+
+.about-btn-grp{
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+}
+
+
+@media(max-width:992px){    
+	.about-split{
+		flex-direction:column ;
+	}
+	.left-img-div{
+		display: none !important;
+	}
+	.About-left {
+		height: 0px !important;
+		padding: 0px !important;
+	}
+	.About-right{
+		text-align: left;
+		height: auto;
+		width: 100%;
+		padding-bottom: 50px;
+	}.About-main {
+		height: auto;
+		/* background-color: rgb(224, 224, 224); */
+	}
+}
+
+@media(max-width:500px){    
+	.right-box{
+		height: 120px;
+		width: 120px;
+	}
+
+	.about-btn-grp{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-between;
+	justify-content: center;
+	column-gap: 20px;
+	}
+
+	.about-btn-last{
+		margin-top: 20px;
+	}
+
 }

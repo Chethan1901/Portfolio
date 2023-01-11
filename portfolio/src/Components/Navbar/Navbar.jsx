@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
+import "./Navbar.css"
 import {
 	MDBNavbar,
 	MDBContainer,
@@ -23,7 +25,7 @@ const Navbar = () => {
 	return (
 		<MDBNavbar sticky expand="lg" light bgColor="light">
 			<MDBContainer>
-				<MDBNavbarBrand href="#" style={{ fontWeight: "500" }}>
+				<MDBNavbarBrand to="/" style={{ fontWeight: "500" }}>
 					Portfoliosite
 				</MDBNavbarBrand>
 				<MDBNavbarToggler
@@ -40,18 +42,18 @@ const Navbar = () => {
 				<MDBCollapse navbar show={showNavRight}>
 					<MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0">
 						<MDBNavbarItem className="ms-2">
-							<MDBNavbarLink active aria-current="page" href="#">
+							{/* <Link active aria-current="page" to="#/" smooth>
 								Home
-							</MDBNavbarLink>
+							</Link> */}
 						</MDBNavbarItem>
 						<MDBNavbarItem className="ms-2">
-							<MDBNavbarLink to="#">About</MDBNavbarLink>
+							{/* <Link to="#about" smooth>About</Link> */}
 						</MDBNavbarItem>
 						<MDBNavbarItem className="ms-2">
-							<MDBNavbarLink href="#">Projects</MDBNavbarLink>
+							{/* <Link to="#projects smooth">Projects</Link> */}
 						</MDBNavbarItem>
 						<MDBNavbarItem className="ms-2">
-							<MDBNavbarLink href="#">Contact</MDBNavbarLink>
+							{/* <Link className="MDBNavbarLink" to="#contact" smooth>Contact</Link> */}
 						</MDBNavbarItem>
 					</MDBNavbarNav>
 				</MDBCollapse>

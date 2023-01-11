@@ -1,12 +1,16 @@
 import React from "react";
 import "./Contact.css";
+import { useEffect } from "react";
 import { TbPhoneCall } from "react-icons/tb";
 import { SiGmail } from "react-icons/si";
 import { ImWhatsapp } from "react-icons/im";
 
 const Contact = () => {
+	useEffect(()=>{
+		window.scroll(0,0)
+	},[])
 	return (
-		<div className="contact-main">
+		<div className="contact-main" id="contact">
 			<h1 className="contact-heading">Get in touch</h1>
 			<p className="contact-txt">
 				Shoot me a message via any of the links below!

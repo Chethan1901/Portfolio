@@ -1,26 +1,24 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Data from "./data";
 
 import {
-	MDBContainer,
 	MDBBtn,
 	MDBCard,
 	MDBCardImage,
 	MDBCardBody,
 	MDBCardTitle,
 	MDBCardText,
-	MDBRow,
 	MDBCol,
 	MDBCardFooter,
 } from "mdb-react-ui-kit";
 import "./Project.css";
 
 const Project = () => {
+
 	const projectData = Data;
-	console.log(projectData);
 
 	const [defaultImage, setDefaultImage] = useState({});
 	const settings = {
@@ -67,7 +65,7 @@ const Project = () => {
 
 	return (
 		<>
-			<div className="Project-main">
+			<div className="Project-main " id="projects">
 				<h2 className="project-heading">Recent Projects</h2>
 				<p className="project-txt">
 					Check out some projects I recently worked on..
