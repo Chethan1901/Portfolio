@@ -17,7 +17,6 @@ import {
 	MDBDropdownItem,
 	MDBNavbarBrand,
 } from "mdb-react-ui-kit";
-import logo from "../../assets/logo.png";
 
 
 const Navbar = () => {
