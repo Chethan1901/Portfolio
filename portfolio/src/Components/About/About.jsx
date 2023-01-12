@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import { useState } from "react";
 import img from "../../assets/img.png";
-import CV from "../../assets/CV.pdf";
+import Chethan_CV from "../../assets/CV.pdf";
 import { HiDownload } from "react-icons/hi";
 import { FaGraduationCap } from "react-icons/fa";
 import { SiKnowledgebase } from "react-icons/si";
@@ -81,7 +81,7 @@ const About = () => {
                 Saepe, nostrum magni! Voluptatibus quam doloribus vero.
               </p>
               <div className="about-btn-grp">
-              <a href={CV} download="Chethan_CV" target="_blank">
+              <a href={Chethan_CV} download="Chethan_CV" target="_blank">
                 <MDBBtn className="about-btn">
                   {"Download CV "}
                   <HiDownload className="mb-1" />
