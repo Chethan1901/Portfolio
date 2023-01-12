@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import { useState } from "react";
 import img from "../../assets/img.png";
-import Chethan_CV from "../../assets/CV.pdf";
+import Chethan_CV from "../../assets/Chethan_CV.pdf";
 import { HiDownload } from "react-icons/hi";
 import { FaGraduationCap } from "react-icons/fa";
 import { SiKnowledgebase } from "react-icons/si";
