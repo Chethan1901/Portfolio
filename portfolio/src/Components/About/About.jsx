@@ -69,16 +69,13 @@ const About = () => {
                 </div>
               </div>
               <p className="right-box-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                reprehenderit molestiae atque voluptatum natus ex explicabo nemo
-                expedita, possimus corporis doloremque laudantium voluptatem?
-                Saepe, nostrum magni! Voluptatibus quam doloribus vero.
+              As a MERN stack developer, I have a passion for creating innovative and user-friendly web applications. With one and half year of experience in full-stack web development and a strong background in the MERN stack (MongoDB, ExpressJS, ReactJS, and NodeJS), I have the technical expertise and creativity to deliver high-quality web solutions that meet the unique needs of my clients.
               </p>
               <p className="right-box-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                reprehenderit molestiae atque voluptatum natus ex explicabo nemo
-                expedita, possimus corporis doloremque laudantium voluptatem?
-                Saepe, nostrum magni! Voluptatibus quam doloribus vero.
+              I have a proven track record of designing and  creating RESTful APIs, and building user interfaces using React. I also have experience with modern front-end technologies such as HTML, CSS, and JavaScript. I am a team player, a quick learner and always looking for opportunities to improve my skills and stay up-to-date with the latest technologies.
+              </p>
+              <p className="right-box-txt">
+              I have a proven track record of designing and  creating RESTful APIs, and building user interfaces using React. I also have experience with modern front-end technologies such as HTML, CSS, and JavaScript. I am a team player, a quick learner and always looking for opportunities to improve my skills and stay up-to-date with the latest technologies.
               </p>
               <div className="about-btn-grp">
               <a href={Chethan_CV} download="Chethan_CV" target="_blank">

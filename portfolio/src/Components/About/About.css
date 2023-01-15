@@ -118,6 +118,13 @@ justify-content:space-evenly;
 }
 
 @media(max-width:500px){    
+
+	.About-right{
+		padding-left:15px ;
+		padding-right:15px ;
+
+	}
+
 	.right-box{
 		height: 120px;
 		width: 120px;
