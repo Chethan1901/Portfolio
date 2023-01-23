@@ -18,21 +18,21 @@ const data = [
 		title: "Tasky",
 		description: `Tasky is a full-fledged Web App that reminds you about your
 		task via emails and mobile messaging build on MERN Stack.`,
-		liveLink: "",
-		codeLink: "",
+		liveLink: "https://github.com/Chethan1901/Tasky-Application",
+		codeLink: "https://github.com/Chethan1901/Tasky-Application",
 	},	{
 		img: "https:mdbootstrap.com/img/new/standard/city/043.webp",
 		title: "CFI Leaderboard",
 		description: `A Dynamic Leaderboard which fetches data from the google
 		sheets using Sheets API and display the Rankings.`,
-		liveLink: "",
-		codeLink: "",
+		liveLink: "https://github.com/Chethan1901/CFI-LEADERBOARD",
+		codeLink: "https://github.com/Chethan1901/CFI-LEADERBOARD",
 	},	{
 		img: TH,
 		title: "Treasure Hunt Game",
 		description: `A game where the user tries to find the treasure. built
 		using JS DOM.`,
-		liveLink: "https://projects-qtl3.vercel.app/",
+		liveLink: "https://treasurehunt-blush.vercel.app/",
 		codeLink: "https://github.com/Chethan1901/Projects/tree/main/GAME",
 	},	{
 		img: Base64,
@@ -40,14 +40,14 @@ const data = [
 		description: `Do you have to deal with Base64 format? Then this site is
 		perfect for you! Use our super handy online tool to encode
 		or decode your data.`,
-		liveLink: "https://projects-eight-brown.vercel.app/",
+		liveLink: "https://base64-five.vercel.app/",
 		codeLink: "https://github.com/Chethan1901/Projects/tree/main/BASE64",
 	},	{
 		img: FC,
 		title: "Font Convertor",
 		description: `A Font Convertor built using HTML, CSS, JS DOM. It converts
 		the style of given input string.`,
-		liveLink: "https://projects-scdx.vercel.app/",
+		liveLink: "https://fontconverter-sigma.vercel.app/",
 		codeLink: "https://github.com/Chethan1901/Projects/tree/main/FC",
 	},
 ];
