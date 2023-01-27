@@ -69,10 +69,10 @@ const About = () => {
                 </div>
               </div>
               <p className="right-box-txt">
-              As a MERN stack developer, I have a passion for creating innovative and user-friendly web applications. With one and half year of experience in full-stack web development and a strong background in the MERN stack (MongoDB, ExpressJS, ReactJS, and NodeJS), I have the technical expertise and creativity to deliver high-quality web solutions that meet the unique needs of my clients.
+              As a MERN stack developer, I have a passion for creating innovative and user-friendly web applications. With one and a half years of experience in full-stack web development and a strong background in the MERN stack (MongoDB, ExpressJS, ReactJS, and NodeJS), I have the technical expertise and creativity to deliver high-quality web solutions that meet the unique needs of my clients.
               </p>
               <p className="right-box-txt">
-              I have a proven track record of designing and  creating RESTful APIs, and building user interfaces using React. I also have experience with modern front-end technologies such as HTML, CSS, and JavaScript. I am a team player, a quick learner and always looking for opportunities to improve my skills and stay up-to-date with the latest technologies.
+              I have a proven track record of designing and creating RESTful APIs, and building user interfaces using React. I also have experience with modern front-end technologies such as HTML, CSS, and JavaScript. I am a team player, a quick learner and always looking for opportunities to improve my skills and stay up-to-date with the latest technologies.
               </p>
               
               <div className="about-btn-grp">
