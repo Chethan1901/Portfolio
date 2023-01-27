@@ -74,9 +74,7 @@ const About = () => {
               <p className="right-box-txt">
               I have a proven track record of designing and  creating RESTful APIs, and building user interfaces using React. I also have experience with modern front-end technologies such as HTML, CSS, and JavaScript. I am a team player, a quick learner and always looking for opportunities to improve my skills and stay up-to-date with the latest technologies.
               </p>
-              <p className="right-box-txt">
-              I have a proven track record of designing and  creating RESTful APIs, and building user interfaces using React. I also have experience with modern front-end technologies such as HTML, CSS, and JavaScript. I am a team player, a quick learner and always looking for opportunities to improve my skills and stay up-to-date with the latest technologies.
-              </p>
+              
               <div className="about-btn-grp">
               <a href={Chethan_CV} download="Chethan_CV" target="_blank">
                 <MDBBtn className="about-btn">
